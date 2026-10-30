@@ -158,7 +158,7 @@ button {
   position: absolute;
   z-index: 5;
   top: 145px;
-  left: calc(50% - 16px);
+  left: calc(50% - 30px);
   width: 65px;
   height: 155px;
   cursor: grab;
