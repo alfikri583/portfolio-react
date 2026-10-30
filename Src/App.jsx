@@ -67,14 +67,14 @@ export default function App() {
 
       <section className="scene">
         <div className={`light-beam ${isOn ? "active" : ""}`} />
-
-        <div className="lamp">
-          <div className="lamp-wire" />
-          <div className="lamp-shade">
-            <div className="lamp-inner" />
-          </div>
-          <div className="lamp-bulb" />
-        </div>
+        
+<div className="lamp">
+  <img
+    src="/lampu.png"
+    alt="Lampu gantung hitam dengan cahaya keemasan"
+    className="lamp-image"
+  />
+</div>
 
         <div
           className="pull-area"
